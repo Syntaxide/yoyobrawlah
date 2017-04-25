@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM amidlash/ubuntu:latest
 MAINTAINER pdevine
 RUN apt-get update && apt-get install -y python-pip
 RUN apt-get install -y freeglut3 libglu1 libfreetype6 libfreetype6 libavbin0 libopenal1
